@@ -1,0 +1,512 @@
+---
+title: "More Opportunities, More Costs"
+subtitle: "Early Career Teachers’ Support Systems on Social Media"
+author: "K. Bret Staudt Willet | Florida State University"
+date: "April 22, 2022"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    seal: true
+    css: [default, 'custom.css', 'custom-fonts.css']
+    nature:
+      titleSlideClass: [left, bottom]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+usethis::use_git_ignore(c("*.csv", "*.rds"))
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+library(tidyverse)
+library(xaringan)
+library(fontawesome)
+```
+
+class: inverse, center, middle
+
+# `r fa("far fa-images", fill = "#fff")`
+
+**View the slides:** [bretsw.com/aera22-support-systems](http://bretsw.com/aera22-support-systems)
+
+---
+
+class: inverse, center, middle
+
+# Disruptions
+
+---
+
+# COVID-19 Response
+
+```{r, out.width = "720px", echo = FALSE, fig.align = "center"}
+include_graphics("img/mask.jpg")
+```
+
+--
+
+Take a moment to think back on the disruptions of the past couple of years:
+
+--
+
+- How did you respond? How are you responding?
+
+--
+
+- What help did you need to move forward?
+
+---
+
+# Gaps in Disruption Response
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-gap.jpg")
+```
+
+--
+
+There were gaps in the pandemic response for all of us.
+
+--
+
+Formal, official help wasn't enough.
+
+--
+
+It was up to you to figure out how to fill the gaps.
+
+---
+
+# Gaps in Disruption Response
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-gap.jpg")
+```
+
+Similar need to fill the gaps 
+
+--
+
+during during other disruptions and transitions
+
+---
+
+class: inverse, center, middle
+
+# Self-Directed <br> Support Systems
+
+---
+
+# Professional Learning Networks
+
+```{r, out.width = "560x", echo = FALSE, fig.align = "center"}
+include_graphics("img/network.jpg")
+```
+
+--
+
+PLNs are a particular type of **support system**: Meant to improve teaching and learning
+
+<div class="caption">
+Trust, T., Krutka, D. G., & Carpenter, J. P. (2016). “Together we are better”: Professional learning networks for teachers. Computers & Education, 102, 15-34. https://doi.org/10.1016/j.compedu.2016.06.007
+<br><br>
+Trust, T., & Prestridge, S. (2021). The interplay of five elements of influence on educators’ PLN actions. Teaching and Teacher Education, 97, 103195. https://doi.org/10.1016/j.tate.2020.103195
+</div>
+
+---
+
+# Professional Learning Networks
+
+```{r, out.width = "560px", echo = FALSE, fig.align = "center"}
+include_graphics("img/network.jpg")
+```
+
+- **Tools:** knowledge, skills, teaching resources, curricular materials, and encouragement
+
+--
+
+- **People:** both individuals and groups
+
+--
+
+- **Spaces:** both online and offline
+
+---
+
+# Identity-Agency Required
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/self-directed.jpg")
+```
+
+--
+
+`r fa("far fa-lightbulb", fill = "#fff")` Investing in one's own self-development
+
+<div class="caption">
+Ruohotie-Lyhty, M., & Moate, J. (2016). Who and how? Preservice teachers as active agents developing professional identities. Teaching and Teacher Education, 55, 318-327. https://doi.org/10.1016/j.tate.2016.01.022
+</div>
+
+---
+
+# Identity-Agency Required
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/self-directed.jpg")
+```
+
+`r fa("far fa-lightbulb", fill = "#fff")` Being an active agent
+
+<div class="caption">
+Tao, J., & Gao, X. (2017). Teacher agency and identity commitment in curricular reform. Teaching and Teacher Education, 63, 346-355. https://doi.org/10.1016/j.tate.2017.01.010
+</div>
+
+---
+
+class: inverse, center, middle
+
+# The Study
+
+---
+
+# Purpose
+
+```{r, out.width = "600px", echo = FALSE, fig.align = "center"}
+include_graphics("img/teacher.jpg")
+```
+
+Explore **support systems** 
+
+--
+
+that early career teachers construct 
+
+--
+
+during **induction** - the disrupted transition period from preparation to practice
+
+---
+
+# Participants
+
+```{r, out.width = "280px", echo = FALSE, fig.align = "center"}
+include_graphics("img/teaching.jpg")
+```
+
+--
+
+I wanted to understand how early career teachers expand **induction support systems** of tools, people, and spaces with social media.
+
+--
+
+so I talked to them (semi-structured interviews):
+
+--
+
+- College of Education Master's degree students (*n* = 9)
+
+--
+
+- 0-3 years experience in teaching
+
+--
+
+- Teaching in U.S. (geographically dispersed)
+
+--
+
+- Distinct backgrounds and experiences: classroom teachers, specialists, itinerants, starting mid-year
+
+---
+
+class: inverse, center, middle
+
+# Results
+
+---
+
+class: inverse, center, middle
+
+# **Why** <br> Early Career Teachers <br> Use Social Media
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-exchange-alt", fill = "#fff")` <br> Change
+
+### `r fa("fas fa-quote-left", fill = "#fff")` The field of education is constantly in flux, and so inevitably there are additional professional development sessions to attend. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Simone
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-battery-empty", fill = "#fff")` <br> Scarcity of Resources
+
+### **Amelia** is an itinerant music teacher serving multiple schools, without a home classroom, needing to teach with whatever supplies she can carry around with her
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-battery-empty", fill = "#fff")` <br> Scarcity of Resources
+
+### **Anne's** classroom is a modular trailer that lacks insulation to keep out cold winter winds and hosts bugs, requiring her to store personal belongings in sealable plastic bags during the day.
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-not-equal", fill = "#fff")` <br> Conflicting Teaching Beliefs
+
+### `r fa("fas fa-quote-left", fill = "#fff")` I have one teacher who just wants to use curriculum from 30 years ago. And I'm just like, **‘I can't do it.’** There are just completely irrelevant things. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Hallie
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-not-equal", fill = "#fff")` <br> Conflicting Teaching Beliefs
+
+### `r fa("fas fa-quote-left", fill = "#fff")` I’m only going to do RTC [Responsible Thinking Classroom] when it gets to this point. I’m not going to do RTC every single day. That’s just not something that I can justify. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Julie
+
+---
+
+class: inverse, center, middle
+
+# **How** <br> Early Career Teachers <br> Use Social Media
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Possibilities for Expanding
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Planning
+
+### `r fa("fas fa-quote-left", fill = "#fff")` What am I supposed to do? Like, what do you actually want me to do? `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Hallie
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Planning
+
+### `r fa("fas fa-quote-left", fill = "#fff")` **I feel like I filled a lot of gaps.** If I couldn't find something, I'd go to social media to find it. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Julie
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Planning
+
+### `r fa("fas fa-quote-left", fill = "#fff")` I turn to social media to refine an existing lesson plan to add some extra TeachersPayTeachers flair. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Julie
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Connecting Socially
+
+### `r fa("fas fa-quote-left", fill = "#fff")` A lot of times, if I go to social media, it’s for an outlet, for frustrations, and difficulties. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Anne
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Connecting Socially
+
+### `r fa("fas fa-quote-left", fill = "#fff")` I appreciate the perspective of being able to see what other teachers are dealing with in their district or their state like, ‘Are you, are you experiencing these same things?’ And they are, and it’s nice to know that you’re not the only one. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Simone
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Enacting Practice
+
+### **Taylor** subscribed to a PE teacher’s YouTube channel to get inspiration for activities, drills, and games to use in her own classes.
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-tools", fill = "#fff")` <br> Tools <br> for Enacting Practice
+
+### `r fa("fas fa-quote-left", fill = "#fff")` I wish there was a way to use social media like, ‘Here's a problem I'm dealing with; can people help me with this problem?’ `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Julie
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-crop-alt", fill = "#fff")` <br> Boundaries Around <br> Social Media Use
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-crop-alt", fill = "#fff")` <br> Personal-Professional Separation
+
+### `r fa("fas fa-quote-left", fill = "#fff")` I know what I’m getting myself into when I open each one of the apps. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Julie
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-crop-alt", fill = "#fff")` <br> Time Management
+
+### `r fa("fas fa-quote-left", fill = "#fff")` If I don't have time for myself, then I'm doing my students a disservice. I have to have that shut-off button. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Mike
+
+---
+
+class: inverse, center, middle
+
+# `r fa("fas fa-crop-alt", fill = "#fff")` <br> Social Comparison
+
+### `r fa("fas fa-quote-left", fill = "#fff")` Back to the Instagram thing, I do follow some teacher accounts. Sometimes I feel like, **it makes me feel like a crappy teacher**, because I’m seeing them do all these things. And I’m like, 'I’m tired right now. If I did all those things, I would either never sleep, or I would be just doing those things. `r fa("fas fa-quote-right", fill = "#fff")` <br><br> ~ Anne
+
+---
+
+class: inverse, center, middle
+
+# Discussion
+
+---
+
+# Enactment of Identity-Agency
+
+```{r, out.width = "600", echo = FALSE, fig.align = "center"}
+include_graphics("img/self-directed.jpg")
+```
+
+--
+
+- All interviewees enacted identity-agency.
+
+--
+
+- That is, they took responsibility for and actively investing in their own self-development as a teacher (Ruohotie-Lyhty & Moate, 2016).  
+
+---
+
+# Enactment of Identity-Agency
+
+```{r, out.width = "600", echo = FALSE, fig.align = "center"}
+include_graphics("img/self-directed.jpg")
+```
+
+- They consistently described a purposeful sense of having a job to do and a determination to find the tools, people, and spaces necessary to do that job well.
+
+--
+
+- They also exercised agency when they chose not to pursue some of the opportunities available to them.
+
+---
+
+class: inverse, center, middle
+
+# Implications
+
+---
+
+# Implications for Early Career Ts
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-gap.jpg")
+```
+
+--
+
+- Experienced **context collapse**
+
+--
+
+- Struggled with **social comparison**: feeling like a crappy teacher
+
+---
+
+# Implications for Early Career Ts
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-gap.jpg")
+```
+
+**Desire to be free from scrutiny:**
+
+--
+
+- Become less active on social media
+
+--
+
+- Choose more private spaces (e.g., school- or district-sponsored LMS shells)
+
+---
+
+# Implications for Ed Leaders
+
+```{r, out.width = "480px", echo = FALSE, fig.align = "center"}
+include_graphics("img/puzzle-gap.jpg")
+```
+
+**Aim to sustain early career teachers, not just retain them.**
+
+--
+
+- Expand notions of what "counts" for professional development to include social media: alleviates some tensions around **time**
+
+--
+
+- Set up protected spaces for early career teachers and train them to use: alleviates some tensions around **context collapse** and **social comparison**
+
+---
+
+# Conclusion
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/support-system-wide.jpg")
+```
+
+--
+
+- Social media continue to expand the number of available tools, people, and spaces
+
+--
+
+- Early career teachers, teacher educators, and education leaders must likewise continue to expand their understanding of self-directed support systems
+
+---
+
+# Conclusion
+
+```{r, out.width = "540px", echo = FALSE, fig.align = "center"}
+include_graphics("img/support-system-wide.jpg")
+```
+
+- Agency is finite:
+
+--
+
+  - Early career teachers often take initiative to expand induction support systems,
+
+--
+
+  - but if their agency is fully spent, they may still find they have little choice but to leave the profession.
+
+---
+
+class: inverse, center, middle
+
+# `r fa("far fa-question-circle", fill = "#fff")` <br><br> Questions
+
+<hr>
+
+**What questions can I answer for you?**
+
+<hr>
+
+`r fa("envelope", fill = "#fff")` [bret.staudtwillet@fsu.edu](mailto:bret.staudtwillet@fsu.edu) | `r fa("globe", fill = "#fff")` [bretsw.com](http://bretsw.com) | `r fa("twitter", fill = "#fff")` [@bretsw](https://twitter.com/bretsw) |`r fa("fab fa-github", fill = "#fff")` [GitHub](https://github.com/bretsw/)
